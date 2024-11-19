@@ -17,6 +17,10 @@ const ProjectCard = (props: ProjectCardProps) => {
                 <div className="project-card__detail__description">
                     <p>{props.description}</p>
                 </div>
+                <div className="project-card__detail__actions">
+                    <a href={props.demo} target="_blank" rel="noreferrer">Live Demo</a>
+                    <a href={props.github} target="_blank" rel="noreferrer">Git Hub repo</a>
+                </div>
             </div>
             <div className="project-card__image">
                 <img src={props.src} alt={`${props.name}`} />
