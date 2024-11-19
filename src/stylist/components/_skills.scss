@@ -1,0 +1,77 @@
+@import "../variables";
+
+.skills {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+
+        span {
+            color: $text-highlight-color;
+        }
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    &__bag {
+        &__detail {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+
+            &--item {
+                width: fit-content;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p{
+                    margin: 0;
+                }
+
+                img {
+                    width: 4rem;
+                    height: 4rem;
+
+                    border-radius: 100%;
+                    padding: .7rem;
+                    border: .3rem solid #fff;
+                    background-color: #251C31;
+                }
+            }
+        }
+    }
+
+    &__shape {
+        margin-top: 30rem;
+        height: 30rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background:
+            url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+        
+            z-index:0;
+
+        div {
+            position: absolute;
+        }
+
+        .hero-header__detail-avartar {
+            height: 18rem;
+            width: 18rem;
+        }
+
+        .logo {
+            width: 10rem;
+        }
+    }
+}

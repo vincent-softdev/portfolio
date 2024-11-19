@@ -1,15 +1,26 @@
 import React from 'react';
-import {BrowserRouter} from "react-router-dom";
 import "./stylist/_styles.scss";
-import BaseLayout from './components/BaseLayout';
+import Header from './components/Header';
+import HeroHeader from './components/HeroHeader';
+import Introduction from './components/Introduction';
+import WorkExperience from './components/WorkExperience';
+import Skills from './components/skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
-         <BrowserRouter>
-            <BaseLayout/>
-         </BrowserRouter>
-      </div>
+    <div className="home-container ">
+         <Header />
+         <main >
+            <div className="home-body">
+              <HeroHeader />
+              <Introduction />
+              <WorkExperience />
+              <Skills />
+              <Projects />
+            </div>
+         </main>
+    </div>
   );
 }
 

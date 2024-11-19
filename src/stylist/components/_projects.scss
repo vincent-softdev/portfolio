@@ -1,0 +1,82 @@
+.projects {
+    margin-top: 20rem;
+}
+
+.project-card {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 15rem;
+
+    &--odd {
+        flex-direction: row-reverse; // Reverse the order for odd cards
+        .project-card__image {
+            left: 0; // Position image on the left
+            right: auto;
+        }
+        .project-card__detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+        }
+    }
+
+    &--even {
+        flex-direction: row; // Default order for even cards
+        .project-card__image {
+            right: 0; // Position image on the right
+            left: auto;
+        }
+        .project-card__detail {
+            text-align: left; // Align text to the left
+        }
+    }
+
+    &__detail {
+        width: 70%;
+        position: relative;
+        z-index: 2; // Ensure text stays above the image
+
+        &__description {
+            position: relative;
+            width: 80%;
+            background: #1a1431; // Keep the same background color
+            color: #000;
+            padding: 2rem;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1; // Place behind the text
+                background: inherit;
+                filter: blur(3rem);
+                pointer-events: none; // Ensure it doesn’t interfere with user interactions
+            }
+
+            p {
+                position: relative;
+                z-index: 2;
+                margin: 0;
+                color: white; // Ensure the text is visible on the background
+            }
+        }
+    }
+
+    &__image {
+        width: 50%;
+        position: absolute; // Allow overlap with the text
+        top: 0;
+        z-index: 1;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; // Ensure the image scales properly
+        }
+    }
+}
