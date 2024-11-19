@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6439bc5.css",
+    "main.css": "/static/css/main.5da2f043.css",
     "main.js": "/static/js/main.33876dad.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/smart_novel.png": "/static/media/smart_novel.1974523ff90013817ac7.png",
@@ -15,12 +15,12 @@
     "static/media/ellipse_l3.png": "/static/media/ellipse_l3.e8151b28f4a082f33706.png",
     "static/media/css.webp": "/static/media/css.6e57aac7aefa69f0451d.webp",
     "index.html": "/index.html",
-    "main.c6439bc5.css.map": "/static/css/main.c6439bc5.css.map",
+    "main.5da2f043.css.map": "/static/css/main.5da2f043.css.map",
     "main.33876dad.js.map": "/static/js/main.33876dad.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6439bc5.css",
+    "static/css/main.5da2f043.css",
     "static/js/main.33876dad.js"
   ]
 }
