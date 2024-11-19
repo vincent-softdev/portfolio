@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5da2f043.css",
-    "main.js": "/static/js/main.33876dad.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/smart_novel.png": "/static/media/smart_novel.1974523ff90013817ac7.png",
-    "static/media/facebook_clone.png": "/static/media/facebook_clone.4a00e0e40868997a431d.png",
-    "static/media/scss.png": "/static/media/scss.332695e6d5bb0c89e5d1.png",
-    "static/media/hero-avartar.png": "/static/media/hero-avartar.f67ab56c2ca5517cce24.png",
-    "static/media/logo.png": "/static/media/logo.ba10b72a0c5b532c6fbc.png",
-    "static/media/ellipse_circle.png": "/static/media/ellipse_circle.138a97e0c5c89ccf3def.png",
-    "static/media/ellipse_wire_big.png": "/static/media/ellipse_wire_big.c41866428f847ef60931.png",
-    "static/media/microsoft-sql-server.svg": "/static/media/microsoft-sql-server.faf9645db7accb5d88a409189ad0a7d8.svg",
-    "static/media/ellipse_l2.png": "/static/media/ellipse_l2.00268e6fc0cac25d8789.png",
-    "static/media/ellipse_l3.png": "/static/media/ellipse_l3.e8151b28f4a082f33706.png",
-    "static/media/css.webp": "/static/media/css.6e57aac7aefa69f0451d.webp",
-    "index.html": "/index.html",
-    "main.5da2f043.css.map": "/static/css/main.5da2f043.css.map",
-    "main.33876dad.js.map": "/static/js/main.33876dad.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.5da2f043.css",
+    "main.js": "/portfolio/static/js/main.846d8e3a.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/smart_novel.png": "/portfolio/static/media/smart_novel.1974523ff90013817ac7.png",
+    "static/media/facebook_clone.png": "/portfolio/static/media/facebook_clone.4a00e0e40868997a431d.png",
+    "static/media/scss.png": "/portfolio/static/media/scss.332695e6d5bb0c89e5d1.png",
+    "static/media/hero-avartar.png": "/portfolio/static/media/hero-avartar.f67ab56c2ca5517cce24.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.ba10b72a0c5b532c6fbc.png",
+    "static/media/ellipse_circle.png": "/portfolio/static/media/ellipse_circle.138a97e0c5c89ccf3def.png",
+    "static/media/ellipse_wire_big.png": "/portfolio/static/media/ellipse_wire_big.c41866428f847ef60931.png",
+    "static/media/microsoft-sql-server.svg": "/portfolio/static/media/microsoft-sql-server.faf9645db7accb5d88a409189ad0a7d8.svg",
+    "static/media/ellipse_l2.png": "/portfolio/static/media/ellipse_l2.00268e6fc0cac25d8789.png",
+    "static/media/ellipse_l3.png": "/portfolio/static/media/ellipse_l3.e8151b28f4a082f33706.png",
+    "static/media/css.webp": "/portfolio/static/media/css.6e57aac7aefa69f0451d.webp",
+    "index.html": "/portfolio/index.html",
+    "main.5da2f043.css.map": "/portfolio/static/css/main.5da2f043.css.map",
+    "main.846d8e3a.js.map": "/portfolio/static/js/main.846d8e3a.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da2f043.css",
-    "static/js/main.33876dad.js"
+    "static/js/main.846d8e3a.js"
   ]
 }
