@@ -1,105 +1,89 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
-
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-/* 
-This variable will change the layout of the website from multipage to single, scrollable page
-*/
-export let singlePage = false;
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
+import hero from "../img/hero-avartar.png"
+import arrow from "../img/arrow.png"
+import logo from "../img/logo.png"
+import delta_cognition_logo from "../img/delta_cognition_logo.jpeg"
+import swinburne_logo from "../img/swinburne_logo.jpeg"
+import { ISkill, IWorkExperience } from "../types/types"
+import html_icon from "../img/skills/html.png"
+import css_icon from "../img/skills/css.webp"
+import scss_icon from "../img/skills/scss.png"
+import microsoft_sql_icon from "../img/skills/microsoft-sql-server.svg"
+import circle_src from "../img/shape/ellipse_circle.png"
+import wire_big_src from "../img/shape/ellipse_wire_big.png"
+import wire_l2_src from "../img/shape/ellipse_l2.png"
+import wire_l3_src from "../img/shape/ellipse_l3.png"
+import wire_l4_src from "../img/shape/ellipse_l4.png"
+import wire_l5_src from "../img/shape/ellipse_l5.png"
 
 export const info = {
-    firstName: "Vinh (Vincent)",
-    lastName: "Ly",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
-    baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-        {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
-            emoji: '🌎',
-            text: 'based in the South Australia'
-        },
-        {
-            emoji: "💼",
-            text: "Seeking for job"
-        },
-        {
-            emoji: "📧",
-            text: "vinh.ly.softdev@gmail.com"
-        }
-    ],
-    socials: [
-        {
-            link: "https://github.com/vincent-softdev",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://www.linkedin.com/in/the-vinh-ly/",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        }
-    ],
-    bio: "Hello! I'm Vincent. I'm a Full Stack Developer. I studied Software Engineer at Swinbourne University of Technology and Torrens University Australia, I enjoy long walks on the beach with my dogs, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-    skills:
-        {
-            proficientWith: ['javascript', 'scss', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'typescript', 'next js', 'docker'],
-            exposedTo: ['nodejs', 'python', 'FastAPI', 'RESTful API']
-        }
-    ,
-    hobbies: [
-        {
-            label: 'reading',
-            emoji: '📖'
-        },
-        {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
-        }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
-    ],
-    portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Facebook Clone",
-            live: "https://facebook-clone-hosting-55491.firebaseapp.com/",
-            source: "https://github.com/vincent-softdev/facebook-clone-hosting.git",
-            image: mock2
-        },
-        {
-            title: "Smart Novel",
-            live: "https://smartnovel-e0696.firebaseapp.com/",
-            source: "https://github.com/vincent-softdev/smart_novel",
-            image: mock1
-        }
-    ]
+    name: "The Vinh (Vincent) Ly",
+    position: "Full Stack Developer | Front-end Developer"
 }
+
+export const images = {
+    logo_src: logo,
+    hero_src: hero,
+    arrow_src: arrow
+}
+
+export const workExperience: IWorkExperience[] = [
+    {
+        id: 1,
+        title: "Delta Cognition",
+        logo: delta_cognition_logo,
+        description: "Full-Stack Software Engineer - Contract"
+    },
+    {
+        id: 2,
+        title: "Swinburne University of Technology",
+        logo: swinburne_logo,
+        description: "Full-Stack Software Engineer - Internship"
+    }
+]
+
+export const skillIndustryIcons: ISkill[] = [
+    {
+        id: 1,
+        name: "html",
+        src: html_icon
+    },
+    {
+        id: 2,
+        name: "css",
+        src: css_icon
+    },
+    {
+        id: 3,
+        name: "scss",
+        src: scss_icon
+    }
+]
+
+export const skillSchoolIcons: ISkill[] = [
+    {
+        id: 1,
+        name: "microsoft sql",
+        src: microsoft_sql_icon
+    }
+]
+
+export const skillShape = [
+    {id: 1, src: circle_src},
+    {id: 2, src: wire_big_src}, 
+    {
+        id: 3,
+        src: wire_l2_src
+    }, 
+    {
+        id: 4,
+        src: wire_l3_src
+    }, 
+    {
+        id: 5,
+        src: wire_l4_src
+    }, 
+    {
+        id: 6,
+        src: wire_l5_src
+    }
+]

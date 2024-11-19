@@ -1,3 +1,7 @@
-@use "./components/emoji_bullet";
-@use "./components/social_icon";
-@use "./components/toggler";
+@use "./components/header";
+@use "./components/hero-header";
+@use "./components/introduction";
+@use "./components/work-experience";
+@use "./components/card/experience-card";
+@use "./components/skills";
+@use "./components/projects";
