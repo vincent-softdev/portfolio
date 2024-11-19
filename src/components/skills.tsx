@@ -16,7 +16,9 @@ const Skills = () => {
                 {
                     skillShape.map((w) => {
                         return (
-                            <img key={w.id} src={w.src} alt={w.src} />
+                            <div className={w.id === 0? "hero-header__detail-avartar": ""}>
+                                <img key={w.id} src={w.src} alt={w.src} className={w.id === 0? "logo" : ""}/>
+                            </div>
                         )
                     })
                 }

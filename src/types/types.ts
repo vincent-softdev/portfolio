@@ -10,3 +10,13 @@ export interface ISkill {
     name: string
     src: string
 }
+
+export interface IProject {
+    id: number
+    name: string
+    description: string
+    src: string
+    time: string
+    github: string
+    demo: string
+}

@@ -61,8 +61,17 @@
         
             z-index:0;
 
-        img {
+        div {
             position: absolute;
+        }
+
+        .hero-header__detail-avartar {
+            height: 18rem;
+            width: 18rem;
+        }
+
+        .logo {
+            width: 10rem;
         }
     }
 }
