@@ -1,3 +1,5 @@
+@import "../variables";
+
 .projects {
     margin-top: 20rem;
 }
@@ -7,6 +9,14 @@
     display: flex;
     position: relative;
     margin-bottom: 15rem;
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .project-card__detail > h1, p {
+        margin: 0px;
+    }
 
     &--odd {
         flex-direction: row-reverse; // Reverse the order for odd cards
@@ -40,10 +50,12 @@
 
         &__description {
             position: relative;
+            margin-top: 2rem;
             width: 80%;
             background: #1a1431; // Keep the same background color
             color: #000;
             padding: 2rem;
+            border: 1px solid #fff;
 
             &::before {
                 content: "";
@@ -63,6 +75,26 @@
                 z-index: 2;
                 margin: 0;
                 color: white; // Ensure the text is visible on the background
+            }
+        }
+
+        &__actions {
+            margin-top: 1rem;
+            display: flex;
+            gap: 2rem;
+
+            a {
+                background-color: white;
+                color: black;
+                text-decoration: none;
+                padding: 0.5rem 2rem;
+                font-size: 1.4rem;
+                transition: .2s;
+
+                &:hover {
+                    background-color: $text-highlight-color;
+                    color: white;
+                }
             }
         }
     }

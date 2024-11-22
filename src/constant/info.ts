@@ -10,6 +10,8 @@ import scss_icon from "../img/skills/scss.png"
 import facebook_clone from "../img/facebook_clone.png"
 import smart_novel from "../img/smart_novel.png"
 import microsoft_sql_icon from "../img/skills/microsoft-sql-server.svg"
+import php from "../img/skills/php.png"
+import flask from "../img/skills/flask.png"
 import circle_src from "../img/shape/ellipse_circle.png"
 import wire_big_src from "../img/shape/ellipse_wire_big.png"
 import wire_l2_src from "../img/shape/ellipse_l2.png"
@@ -58,6 +60,11 @@ export const skillIndustryIcons: ISkill[] = [
         id: 3,
         name: "scss",
         src: scss_icon
+    },
+    {
+        id: 4,
+        name: "flask",
+        src: flask
     }
 ]
 
@@ -66,6 +73,11 @@ export const skillSchoolIcons: ISkill[] = [
         id: 1,
         name: "microsoft sql",
         src: microsoft_sql_icon
+    },
+    {
+        id: 2,
+        name: "PHP",
+        src: php
     }
 ]
 
