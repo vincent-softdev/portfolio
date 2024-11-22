@@ -18,6 +18,11 @@ import wire_l2_src from "../img/shape/ellipse_l2.png"
 import wire_l3_src from "../img/shape/ellipse_l3.png"
 import wire_l4_src from "../img/shape/ellipse_l4.png"
 import wire_l5_src from "../img/shape/ellipse_l5.png"
+// footer
+import phone from "../img/phone-icon.png"
+import email from "../img/gmail-logo.webp"
+import linkedin from "../img/LinkedIn-Logo.svg"
+import github from "../img/github-logo.png"
 
 export const info = {
     name: "The Vinh (Vincent) Ly",
@@ -132,3 +137,28 @@ export const projectList: IProject[] = [
         github: "https://github.com/vincent-softdev/portfolio"
     }
 ]
+
+export const footer = {
+    icons: {
+        phone: {
+            value: "(+61) 478 646 929",
+            icon: phone,
+            active: false
+        },
+        email: {
+            value: "vinh.ly.softdev@gmail.com",
+            icon: email,
+            active: false
+        },
+        linkedin: {
+            value: "https://www.linkedin.com/in/the-vinh-ly/",
+            icon: linkedin,
+            active: true
+        },
+        github: {
+            value: "https://github.com/vincent-softdev",
+            icon: github,
+            active: true
+        }
+    }
+}
