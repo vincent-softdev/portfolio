@@ -1,44 +1,45 @@
-@import "../../variables";
+@import '../../variables';
 
 .experience-card {
-    border: 1px solid #fff;
-    height: 18rem;
+  border: 1px solid #fff;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem 4rem;
+
+  img {
+    height: 10rem;
+  }
+
+  &__detail {
+    padding-left: 2rem;
     display: flex;
-    align-items: center;
-    padding: 1rem 4rem;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3rem;
 
-    img {
-        height: 10rem;
+    h1,
+    p {
+      margin: 0px;
     }
 
-    &__detail {
-        padding-left: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        line-height: 3rem;
-        
-        h1, p {
-            margin: 0px;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
-
-        button {
-            width: fit-content;
-            padding: .6rem 2rem;
-            border-radius: 1rem;
-            font-family: 'Courier New', Courier, monospace;
-            background-color: transparent;
-            color: white;
-            cursor: pointer;
-
-            &:active {
-                background-color: white;
-                color: $text-highlight-color;
-            }
-        }
+    p {
+      font-size: 1.2rem;
     }
+
+    button {
+      width: fit-content;
+      padding: 0.6rem 2rem;
+      border-radius: 1rem;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: transparent;
+      color: white;
+      cursor: pointer;
+
+      &:active {
+        background-color: white;
+        color: $text-highlight-color;
+      }
+    }
+  }
 }

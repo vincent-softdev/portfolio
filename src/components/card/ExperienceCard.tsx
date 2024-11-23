@@ -1,16 +1,27 @@
-import { IWorkExperience } from "../../types/types"
+import React from 'react';
+import { IWorkExperience } from '../../types/types';
+import ExperienceModal from '../modal/ExperienceModal';
 
 const ExperienceCard = (props: IWorkExperience) => {
-    return (
-        <div className="experience-card">
-            <img src={props.logo} alt="logo" />
-            <div className="experience-card__detail">
-                <h1>{props.description}</h1>
-                <p>{props.title}</p>
-                <button>READ MORE</button>
-            </div>
-        </div>
-    )
-}
+  const [modal, setModal] = React.useState(false);
 
-export default ExperienceCard
+  const toggleModal = () => {
+    setModal((prev) => !prev);
+  };
+
+  return (
+    <div className="experience-card">
+      <img src={props.logo} alt="logo" />
+      <div className="experience-card__detail">
+        <h1>{props.description}</h1>
+        <p>{props.title}</p>
+        <button onClick={toggleModal}>READ MORE</button>
+      </div>
+      {modal && (
+        <ExperienceModal modal={modal} toggleModal={toggleModal} data={props} />
+      )}
+    </div>
+  );
+};
+
+export default ExperienceCard;

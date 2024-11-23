@@ -1,14 +1,14 @@
 .work-experience {
-    margin-top: 10rem;
+  margin-top: 10rem;
 
-    &__card {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 3rem;
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
 
-        .experience-card {
-            width: 39%;
-        }
+    .experience-card {
+      width: 39%;
     }
+  }
 }
