@@ -1,8 +1,9 @@
-@use "./components/header";
-@use "./components/hero-header";
-@use "./components/introduction";
-@use "./components/work-experience";
-@use "./components/card/experience-card";
-@use "./components/skills";
-@use "./components/projects";
-@use "./components/footer";
+@use './components/header';
+@use './components/hero-header';
+@use './components/introduction';
+@use './components/work-experience';
+@use './components/card/experience-card';
+@use './components/skills';
+@use './components/projects';
+@use './components/footer';
+@use './components/modal/experience-modal';

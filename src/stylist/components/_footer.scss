@@ -1,39 +1,39 @@
-@import "../variables";
+@import '../variables';
 
 .footer {
-    background-color: white;
-    border-top: 2rem solid $text-highlight-color;
-    color: black;
+  background-color: white;
+  border-top: 2rem solid $text-highlight-color;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  &-contacts {
+    width: fit-content;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    gap: 4rem;
 
-    &-contacts {
-        width: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4rem;
+    &__icon {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
 
-        &__icon {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
+      & > img {
+        width: 4rem;
+      }
 
-            & > img {
-                width: 4rem;
-            }
+      span {
+        font-size: 1.7rem;
+      }
 
-            span {
-                font-size: 1.7rem;
-            }
-
-            a {
-                img {
-                    height: 10rem;
-                }
-            }
+      a {
+        img {
+          height: 10rem;
         }
+      }
     }
+  }
 }

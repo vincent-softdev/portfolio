@@ -1,19 +1,19 @@
-@import "../variables";
+@import '../variables';
 
 .home {
-    &-container {
-        background-color: $primary-color;
+  &-container {
+    background-color: $primary-color;
 
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    } 
-    
-    &-body {
-        padding: $body-padding;
-        padding-top: 50px;
-        width: 1024px;
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+  }
+
+  &-body {
+    padding: $body-padding;
+    padding-top: 50px;
+    width: 1024px;
+  }
 }

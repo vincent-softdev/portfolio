@@ -1,20 +1,18 @@
-@import "../variables";
+@import '../variables';
 
 .introduction {
-    margin-top: 5rem;
+  margin-top: 5rem;
 
-    h1 {
-        font-size: 3rem;
-        font-weight: 400;
-        margin-bottom: 0px;
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+  p {
+    span {
+      color: $text-highlight-color;
+      font-size: 2rem;
     }
-
-    p {
-        font-size: 1.2rem;
-
-        span {
-            color: $text-highlight-color;
-            font-size: 2rem;
-        }
-    }
+  }
 }
