@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IWorkExperience } from '../../types/types';
+import CloseIcon from '@mui/icons-material/Close';
 
 type ExperienceModalProps = React.HTMLAttributes<HTMLDivElement> & {
   modal: boolean;
@@ -33,9 +34,12 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({
       <div className="experience-modal__content">
         <div className="experience-modal__header">
           <button className="experience-modal__close" onClick={toggleModal}>
-            ✖
+            <CloseIcon className="experience-modal__close--icon" />
           </button>
-          <h2>{data.title}</h2>
+          <h2>
+            <img src={data.logo} alt="Company Logo" />
+            {data.title}
+          </h2>
         </div>
         <div className="experience-modal__body">
           <div className="experience-modal__pages">
@@ -73,9 +77,6 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({
               ></button>
             ))}
           </div>
-        </div>
-        <div className="experience-modal__footer">
-          <button onClick={toggleModal}>Close</button>
         </div>
       </div>
     </div>
