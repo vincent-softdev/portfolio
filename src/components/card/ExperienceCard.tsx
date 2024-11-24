@@ -13,7 +13,7 @@ const ExperienceCard = (props: IWorkExperience) => {
     <div className="experience-card">
       <img src={props.logo} alt="logo" />
       <div className="experience-card__detail">
-        <h1>{props.description}</h1>
+        <h1>{props.role}</h1>
         <p>{props.title}</p>
         <button onClick={toggleModal}>READ MORE</button>
       </div>

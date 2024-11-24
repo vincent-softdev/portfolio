@@ -2,7 +2,13 @@ export interface IWorkExperience {
   id: number;
   title: string;
   logo: string;
+  role: string;
   description: string;
+  time: string;
+  detail: {
+    daily: string[];
+    achievement: string[];
+  };
 }
 
 export interface ISkill {

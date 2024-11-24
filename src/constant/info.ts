@@ -40,13 +40,40 @@ export const workExperience: IWorkExperience[] = [
     id: 1,
     title: 'Delta Cognition',
     logo: delta_cognition_logo,
-    description: 'Full-Stack Software Engineer - Contract',
+    role: 'Full-Stack Software Engineer - Contract',
+    time: 'Aug 2022 – Feb 2024 (1 year and 7 months)',
+    description:
+      'Delta Cognition is a team of AI specialists dedicated to solving complex global challenges through innovative and high-quality AI solutions, providing not only technical fixes but also valuable business insights.',
+    detail: {
+      daily: [
+        'Optimised page performance by refining the front end using React, Flutter, Dart, Tailwind CSS, JSON, TypeScript, and SCSS, while enhancing the back end with a Python-based REST API.',
+        'Improved application stability by identifying and resolving bugs, optimising performance, and enhancing overall reliability and efficiency.',
+        'Selected to mentor and onboard new staff, providing guidance on best practices to enhance team productivity.',
+        'Designed and developed a mobile application using Flutter and Dart, creating a streamlined mobile version of the company’s core project, and deployed the product to diverse devices using Docker.',
+      ],
+      achievement: [
+        'Initiated and implemented a new project milestone using Next.js, Azure Cloud, Single Sign-On, and PostgreSQL—technologies that were new to both me and the company. Successfully delivered the milestone within a month, meeting the target deadline.',
+        'Initiated and contributed to the development of three projects from concept to completion, showcasing full project lifecycle management.',
+        'Spearheaded frontend enhancements in the data transfer system, increasing speed by 6x and reducing transfer time from over 2 minutes to under 30 seconds.',
+      ],
+    },
   },
   {
     id: 2,
     title: 'Swinburne University of Technology',
     logo: swinburne_logo,
-    description: 'Full-Stack Software Engineer - Internship',
+    role: 'Full-Stack Software Engineer - Internship',
+    time: 'Nov 2020 – Mar 2021 (5 months)',
+    description:
+      'Swinburne is a globally recognised university in Melbourne focused on producing future-ready graduates, fostering innovation, and advancing research.',
+    detail: {
+      daily: [
+        'Responsible for managing and implementing new features using HTML, JSON, XML, CSS3, PHP, and MySQL.',
+        'Developed an interactive web interface for Arduino, enabling users to connect to and control Arduino devices directly through a browser.',
+        'Implemented embedded designs using Arduino and hardware, integrating software and hardware components for seamless interaction.',
+      ],
+      achievement: [],
+    },
   },
 ];
 

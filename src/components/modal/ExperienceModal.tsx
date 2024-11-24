@@ -18,10 +18,26 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({
   const [currentPage, setCurrentPage] = useState(0);
 
   const pageContent = [
-    <div key="1">Page 1: {data.description}</div>,
-    <div key="2">Page 2: More details about {data.title}</div>,
-    <div key="3">Page 3: Achievements and highlights</div>,
-    <div key="4">Page 4: Additional information</div>,
+    <div key="1">
+      <h1>Description</h1>
+      <p>{data.description}</p>
+    </div>,
+    <div key="2">
+      <h1>Daily Tasks</h1>
+      <ul>
+        {data.detail.daily.map((e) => {
+          return <li>{e}</li>;
+        })}
+      </ul>
+    </div>,
+    <div key="3">
+      <h1>Key Achievements</h1>
+      <ul>
+        {data.detail.achievement.map((e) => {
+          return <li>{e}</li>;
+        })}
+      </ul>
+    </div>,
   ];
 
   const handlePageChange = (page: number) => {
@@ -36,10 +52,13 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({
           <button className="experience-modal__close" onClick={toggleModal}>
             <CloseIcon className="experience-modal__close--icon" />
           </button>
-          <h2>
+          <h1>
             <img src={data.logo} alt="Company Logo" />
             {data.title}
-          </h2>
+          </h1>
+        </div>
+        <div className="experience-modal__content--time">
+          Working time:<p> {data.time}</p>
         </div>
         <div className="experience-modal__body">
           <div className="experience-modal__pages">
