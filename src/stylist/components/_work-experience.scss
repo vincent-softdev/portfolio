@@ -1,3 +1,6 @@
+@import '../variables';
+@import '../mixins';
+
 .work-experience {
   margin-top: 10rem;
 
@@ -5,10 +8,35 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1rem;
+
+    @include respond-to(md) {
+      justify-content: center;
+    }
 
     .experience-card {
-      width: 39%;
+      max-width: 39%;
+
+      @include respond-to(md) {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 2rem; // Default for sizes over lg
+
+        @include respond-to(lg) {
+          font-size: 1.8rem;
+        }
+
+        @include respond-to(md) {
+          font-size: 2rem;
+        }
+
+        @include respond-to(sm) {
+          // Fixed typo here
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 }

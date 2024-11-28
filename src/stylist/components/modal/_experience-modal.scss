@@ -27,9 +27,12 @@
     background: white;
     margin: 2rem;
     font-size: 1.4rem;
+    max-height: 60vh;
     padding: 20px;
     border-radius: 8px;
     overflow-y: auto;
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
     &--time {
