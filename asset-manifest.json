@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.df6b246f.css",
+    "main.css": "/static/css/main.dedc88ef.css",
     "main.js": "/static/js/main.2ac1a7e4.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/smart_novel.png": "/static/media/smart_novel.1974523ff90013817ac7.png",
@@ -21,12 +21,12 @@
     "static/media/gmail-logo.webp": "/static/media/gmail-logo.6362ef82d1c4308e768d.webp",
     "static/media/LinkedIn-Logo.svg": "/static/media/LinkedIn-Logo.552af841fdaca6bdb35162a49362b56e.svg",
     "index.html": "/index.html",
-    "main.df6b246f.css.map": "/static/css/main.df6b246f.css.map",
+    "main.dedc88ef.css.map": "/static/css/main.dedc88ef.css.map",
     "main.2ac1a7e4.js.map": "/static/js/main.2ac1a7e4.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6b246f.css",
+    "static/css/main.dedc88ef.css",
     "static/js/main.2ac1a7e4.js"
   ]
 }
