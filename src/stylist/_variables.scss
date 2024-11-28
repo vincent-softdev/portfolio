@@ -2,3 +2,15 @@ $header-color: #210349;
 $primary-color: #16082a;
 $text-highlight-color: #7127ba;
 $body-padding: 0rem 10rem;
+
+$breakpoints: (
+  xs: 480px,
+  // For extra small screens like mobile phones
+  sm: 768px,
+  // For small screens like tablets
+  md: 1024px,
+  // For medium screens like small laptops
+  lg: 1280px,
+  // For large screens like desktops
+  xl: 1440px // For extra-large screens like wide monitors,
+);
