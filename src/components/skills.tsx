@@ -1,6 +1,7 @@
 import {
   skillIndustryIcons,
   skillSchoolIcons,
+  skillApplicationIcons,
   skillShape,
 } from '../constant/info';
 import SkillBagCard from './card/SkillBagCard';
@@ -16,6 +17,8 @@ const Skills = () => {
       <div className="skills__bag">
         <p>Industry</p>
         <SkillBagCard skill_list={skillIndustryIcons} />
+        <p>Application used</p>
+        <SkillBagCard skill_list={skillApplicationIcons} />
         <p>School</p>
         <SkillBagCard skill_list={skillSchoolIcons} />
       </div>

@@ -23,6 +23,24 @@ import phone from '../img/phone-icon.png';
 import email from '../img/gmail-logo.webp';
 import linkedin from '../img/LinkedIn-Logo.svg';
 import github from '../img/github-logo.png';
+// Frontend
+import react from '../img/skills/react.png';
+import ts from '../img/skills/ts.png';
+import next from '../img/skills/next.webp';
+import flutter from '../img/skills/flutter.png';
+import restful from '../img/skills/restapis.webp';
+import tailwindcss from '../img/skills/tailwindcss.svg';
+import json from '../img/skills/json.jpg';
+import jquery from '../img/skills/jquery.png';
+// database
+import mysql from '../img/skills/mysql.png';
+// system
+import git from '../img/skills/git.png';
+import docker from '../img/skills/docker.png';
+import bash from '../img/skills/bash.webp';
+// application
+import firebase from '../img/skills/Firebase_Logo.png';
+import linux from '../img/skills/linux.png';
 
 export const info = {
   name: 'The Vinh (Vincent) Ly',
@@ -98,6 +116,46 @@ export const skillIndustryIcons: ISkill[] = [
     name: 'flask',
     src: flask,
   },
+  {
+    id: 5,
+    name: 'rest',
+    src: restful,
+  },
+  {
+    id: 6,
+    name: 'ts',
+    src: ts,
+  },
+  {
+    id: 7,
+    name: 'next',
+    src: next,
+  },
+  {
+    id: 8,
+    name: 'react',
+    src: react,
+  },
+  {
+    id: 9,
+    name: 'flutter',
+    src: flutter,
+  },
+  {
+    id: 10,
+    name: 'tailwindcss',
+    src: tailwindcss,
+  },
+  {
+    id: 11,
+    name: 'json',
+    src: json,
+  },
+  {
+    id: 12,
+    name: 'jquery',
+    src: jquery,
+  },
 ];
 
 export const skillSchoolIcons: ISkill[] = [
@@ -110,6 +168,39 @@ export const skillSchoolIcons: ISkill[] = [
     id: 2,
     name: 'PHP',
     src: php,
+  },
+  {
+    id: 3,
+    name: 'mysql',
+    src: mysql,
+  },
+];
+
+export const skillApplicationIcons: ISkill[] = [
+  {
+    id: 1,
+    name: 'firebase',
+    src: firebase,
+  },
+  {
+    id: 2,
+    name: 'linux',
+    src: linux,
+  },
+  {
+    id: 3,
+    name: 'git',
+    src: git,
+  },
+  {
+    id: 4,
+    name: 'docker',
+    src: docker,
+  },
+  {
+    id: 5,
+    name: 'bash',
+    src: bash,
   },
 ];
 
