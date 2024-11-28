@@ -1,0 +1,22 @@
+@import './variables';
+
+@mixin respond-to($breakpoint) {
+  // Lookup to $breakpoint in variables.scss to find the input $breakpoint
+  $size: map-get(
+    $map: $breakpoints,
+    $key: $breakpoint,
+  );
+
+  // before we actually setup the size and content, we will
+  // check whether the size exist
+  @if $size {
+    // responsive according to the parameter size
+    @media (max-width: $size) {
+      @content;
+    }
+  }
+  // Now, if the size does not exist, we response the error
+  @else {
+    @error "Breakpoint '#{$breakpoint}' not found in $breakpoint map.";
+  }
+}
