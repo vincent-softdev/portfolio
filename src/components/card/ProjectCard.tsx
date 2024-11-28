@@ -22,7 +22,7 @@ const ProjectCard = (props: ProjectCardProps) => {
             Live Demo
           </a>
           <a href={props.github} target="_blank" rel="noreferrer">
-            Git Hub repo
+            GitHub repo
           </a>
         </div>
       </div>

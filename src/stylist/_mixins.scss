@@ -6,6 +6,7 @@
     $map: $breakpoints,
     $key: $breakpoint,
   );
+  @debug $size;
 
   // before we actually setup the size and content, we will
   // check whether the size exist

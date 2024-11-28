@@ -1,20 +1,21 @@
 @import '../variables';
 
 .footer {
-  background-color: white;
+  background-color: $text-highlight-color;
   border-top: 2rem solid $text-highlight-color;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  padding: 0rem 3rem;
 
   &-contacts {
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
+    justify-content: center;
 
     &__icon {
       display: flex;
